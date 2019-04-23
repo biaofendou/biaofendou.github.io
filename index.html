@@ -229,6 +229,363 @@
   
   
   <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/04/24/将已有项目进行代码版本管理/">
+
+    <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="John Doe">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Hexo">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2019/04/24/将已有项目进行代码版本管理/" itemprop="url">Untitled</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2019-04-24T00:02:23+08:00">
+                2019-04-24
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h1 id="将已有项目进行代码版本管理"><a href="#将已有项目进行代码版本管理" class="headerlink" title="将已有项目进行代码版本管理"></a>将已有项目进行代码版本管理</h1><h4 id="1-git上新建一个项目"><a href="#1-git上新建一个项目" class="headerlink" title="1.git上新建一个项目"></a>1.git上新建一个项目</h4><h4 id="2-一般新建git项目都是空的不会与原本的本地项目有冲突，所以直接使用“git-pull-allow-unrelated-histories”将git上的项目与本地项目强行融合，当出现冲突时需要人工选择保留哪个项目"><a href="#2-一般新建git项目都是空的不会与原本的本地项目有冲突，所以直接使用“git-pull-allow-unrelated-histories”将git上的项目与本地项目强行融合，当出现冲突时需要人工选择保留哪个项目" class="headerlink" title="2. 一般新建git项目都是空的不会与原本的本地项目有冲突，所以直接使用“git pull -allow-unrelated-histories”将git上的项目与本地项目强行融合，当出现冲突时需要人工选择保留哪个项目"></a>2. 一般新建git项目都是空的不会与原本的本地项目有冲突，所以直接使用“git pull -allow-unrelated-histories”将git上的项目与本地项目强行融合，当出现冲突时需要人工选择保留哪个项目</h4>
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope="" itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/04/23/git 忽略规则.gitignore/">
+
+    <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="John Doe">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Hexo">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2019/04/23/git 忽略规则.gitignore/" itemprop="url">Untitled</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2019-04-23T23:57:11+08:00">
+                2019-04-23
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h1 id="git-忽略规则-gitignore"><a href="#git-忽略规则-gitignore" class="headerlink" title="git 忽略规则.gitignore"></a>git 忽略规则.gitignore</h1><h3 id="在进行代码管理时，应该将（-文件）这样的环境配置文件应该忽略掉，防止每次环境变化版本出现问题，大型数据集也应该忽略"><a href="#在进行代码管理时，应该将（-文件）这样的环境配置文件应该忽略掉，防止每次环境变化版本出现问题，大型数据集也应该忽略" class="headerlink" title="在进行代码管理时，应该将（.文件）这样的环境配置文件应该忽略掉，防止每次环境变化版本出现问题，大型数据集也应该忽略"></a>在进行代码管理时，应该将（.文件）这样的环境配置文件应该忽略掉，防止每次环境变化版本出现问题，大型数据集也应该忽略</h3><h4 id="1-touch-gitignore-创建文件"><a href="#1-touch-gitignore-创建文件" class="headerlink" title="1. touch .gitignore 创建文件"></a>1. touch .gitignore 创建文件</h4><h4 id="2-vim-gitignore-打开文件"><a href="#2-vim-gitignore-打开文件" class="headerlink" title="2.vim .gitignore  打开文件"></a>2.vim .gitignore  打开文件</h4><h4 id="3-在文件中加入要忽视文件的路径如-idea-data-等"><a href="#3-在文件中加入要忽视文件的路径如-idea-data-等" class="headerlink" title="3. 在文件中加入要忽视文件的路径如 .idea/,data/等"></a>3. 在文件中加入要忽视文件的路径如 .idea/,data/等</h4>
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope="" itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/04/23/博客更新/">
+
+    <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="John Doe">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Hexo">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2019/04/23/博客更新/" itemprop="url">Untitled</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2019-04-23T23:35:18+08:00">
+                2019-04-23
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h2 id="博客更新"><a href="#博客更新" class="headerlink" title="博客更新"></a>博客更新</h2><h4 id="1-博客生成"><a href="#1-博客生成" class="headerlink" title="1. 博客生成"></a>1. 博客生成</h4><h4 id="hexo-generate"><a href="#hexo-generate" class="headerlink" title="hexo generate"></a>hexo generate</h4><h4 id="2-本地博客展示"><a href="#2-本地博客展示" class="headerlink" title="2.本地博客展示"></a>2.本地博客展示</h4><h4 id="hexo-server"><a href="#hexo-server" class="headerlink" title="hexo server"></a>hexo server</h4><h4 id="3-博客上传"><a href="#3-博客上传" class="headerlink" title="3. 博客上传"></a>3. 博客上传</h4><h4 id="hexo-deploy"><a href="#hexo-deploy" class="headerlink" title="hexo deploy"></a>hexo deploy</h4><h4 id="4-博客生成内容清除"><a href="#4-博客生成内容清除" class="headerlink" title="4. 博客生成内容清除"></a>4. 博客生成内容清除</h4><h4 id="hexo-clean"><a href="#hexo-clean" class="headerlink" title="hexo clean"></a>hexo clean</h4>
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope="" itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/04/23/Git步骤/">
 
     <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
@@ -775,7 +1132,7 @@
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">4</span>
+                  <span class="site-state-item-count">7</span>
                   <span class="site-state-item-name">posts</span>
                 </a>
               </div>
