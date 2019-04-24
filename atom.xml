@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-04-23T16:02:23.906Z</updated>
+  <updated>2019-04-24T11:36:19.541Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title></title>
+    <title>代码管理</title>
     <link href="http://yoursite.com/2019/04/24/%E5%B0%86%E5%B7%B2%E6%9C%89%E9%A1%B9%E7%9B%AE%E8%BF%9B%E8%A1%8C%E4%BB%A3%E7%A0%81%E7%89%88%E6%9C%AC%E7%AE%A1%E7%90%86/"/>
     <id>http://yoursite.com/2019/04/24/将已有项目进行代码版本管理/</id>
     <published>2019-04-23T16:02:23.904Z</published>
-    <updated>2019-04-23T16:02:23.906Z</updated>
+    <updated>2019-04-24T11:36:19.541Z</updated>
     
     <summary type="html">
     
@@ -29,21 +29,25 @@
       
         
         
-          &lt;h1 id=&quot;将已有项目进行代码版本管理&quot;&gt;&lt;a href=&quot;#将已有项目进行代码版本管理&quot; class=&quot;headerlink&quot; title=&quot;将已有项目进行代码版本管理&quot;&gt;&lt;/a&gt;将已有项目进行代码版本管理&lt;/h1&gt;&lt;h4 id=&quot;1-git上新建一个项目&quot;&gt;&lt;a
+          &lt;h3 id=&quot;将已有项目进行代码版本管理&quot;&gt;&lt;a href=&quot;#将已有项目进行代码版本管理&quot; class=&quot;headerlink&quot; title=&quot;将已有项目进行代码版本管理&quot;&gt;&lt;/a&gt;将已有项目进行代码版本管理&lt;/h3&gt;&lt;h4 id=&quot;1-git上新建一个项目&quot;&gt;&lt;a
         
       
     
     </summary>
     
+      <category term="git" scheme="http://yoursite.com/categories/git/"/>
+    
+    
+      <category term="git" scheme="http://yoursite.com/tags/git/"/>
     
   </entry>
   
   <entry>
-    <title></title>
+    <title>git 忽略规则.gitignore</title>
     <link href="http://yoursite.com/2019/04/23/git%20%E5%BF%BD%E7%95%A5%E8%A7%84%E5%88%99.gitignore/"/>
     <id>http://yoursite.com/2019/04/23/git 忽略规则.gitignore/</id>
     <published>2019-04-23T15:57:11.634Z</published>
-    <updated>2019-04-23T15:57:11.635Z</updated>
+    <updated>2019-04-24T11:39:43.642Z</updated>
     
     <summary type="html">
     
@@ -51,12 +55,16 @@
       
         
         
-          &lt;h1 id=&quot;git-忽略规则-gitignore&quot;&gt;&lt;a href=&quot;#git-忽略规则-gitignore&quot; class=&quot;headerlink&quot; title=&quot;git 忽略规则.gitignore&quot;&gt;&lt;/a&gt;git 忽略规则.gitignore&lt;/h1&gt;&lt;h3
+          &lt;h3 id=&quot;在进行代码管理时，应该将（-文件）这样的环境配置文件应该忽略掉，防止每次环境变化版本出现问题，大型数据集也应该忽略&quot;&gt;&lt;a href=&quot;#在进行代码管理时，应该将（-文件）这样的环境配置文件应该忽略掉，防止每次环境变化版本出现问题，大型数据集也应该忽略&quot;
         
       
     
     </summary>
     
+      <category term="git" scheme="http://yoursite.com/categories/git/"/>
+    
+    
+      <category term="git" scheme="http://yoursite.com/tags/git/"/>
     
   </entry>
   
@@ -105,25 +113,22 @@
   </entry>
   
   <entry>
-    <title></title>
+    <title>传参问题</title>
     <link href="http://yoursite.com/2018/11/25/Python%E4%B8%AD%E5%87%BD%E6%95%B0%E4%BC%A0%E5%8F%82%E9%97%AE%E9%A2%98/"/>
     <id>http://yoursite.com/2018/11/25/Python中函数传参问题/</id>
     <published>2018-11-25T09:30:13.269Z</published>
-    <updated>2019-04-24T04:38:10.744Z</updated>
+    <updated>2019-04-24T11:53:36.249Z</updated>
     
     <summary type="html">
     
-      
-      
-        
-        
-          &lt;p&gt;title: 传参问题&lt;/p&gt;
-&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td
-        
-      
+      &lt;p&gt;&lt;code&gt;&lt;br&gt;
     
     </summary>
     
+      <category term="Python" scheme="http://yoursite.com/categories/Python/"/>
+    
+    
+      <category term="Python学习" scheme="http://yoursite.com/tags/Python%E5%AD%A6%E4%B9%A0/"/>
     
   </entry>
   
@@ -156,7 +161,7 @@
     <link href="http://yoursite.com/2018/11/22/hello-world/"/>
     <id>http://yoursite.com/2018/11/22/hello-world/</id>
     <published>2018-11-22T09:37:59.130Z</published>
-    <updated>2018-11-22T12:58:28.519Z</updated>
+    <updated>2019-04-24T11:34:55.002Z</updated>
     
     <summary type="html">
     
@@ -172,8 +177,6 @@
     </summary>
     
       <category term="Begin" scheme="http://yoursite.com/categories/Begin/"/>
-    
-      <category term="Hexo" scheme="http://yoursite.com/categories/Begin/Hexo/"/>
     
     
       <category term="Hexo" scheme="http://yoursite.com/tags/Hexo/"/>
