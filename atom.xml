@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>标的博客</title>
+  
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://yoursite.com/"/>
+  <updated>2019-04-23T16:02:23.906Z</updated>
+  <id>http://yoursite.com/</id>
+  
+  <author>
+    <name>Biaofendou</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title></title>
+    <link href="http://yoursite.com/2019/04/24/%E5%B0%86%E5%B7%B2%E6%9C%89%E9%A1%B9%E7%9B%AE%E8%BF%9B%E8%A1%8C%E4%BB%A3%E7%A0%81%E7%89%88%E6%9C%AC%E7%AE%A1%E7%90%86/"/>
+    <id>http://yoursite.com/2019/04/24/将已有项目进行代码版本管理/</id>
+    <published>2019-04-23T16:02:23.904Z</published>
+    <updated>2019-04-23T16:02:23.906Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;将已有项目进行代码版本管理&quot;&gt;&lt;a href=&quot;#将已有项目进行代码版本管理&quot; class=&quot;headerlink&quot; title=&quot;将已有项目进行代码版本管理&quot;&gt;&lt;/a&gt;将已有项目进行代码版本管理&lt;/h1&gt;&lt;h4 id=&quot;1-git上新建一个项目&quot;&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="http://yoursite.com/2019/04/23/git%20%E5%BF%BD%E7%95%A5%E8%A7%84%E5%88%99.gitignore/"/>
+    <id>http://yoursite.com/2019/04/23/git 忽略规则.gitignore/</id>
+    <published>2019-04-23T15:57:11.634Z</published>
+    <updated>2019-04-23T15:57:11.635Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;git-忽略规则-gitignore&quot;&gt;&lt;a href=&quot;#git-忽略规则-gitignore&quot; class=&quot;headerlink&quot; title=&quot;git 忽略规则.gitignore&quot;&gt;&lt;/a&gt;git 忽略规则.gitignore&lt;/h1&gt;&lt;h3
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="http://yoursite.com/2019/04/23/%E5%8D%9A%E5%AE%A2%E6%9B%B4%E6%96%B0/"/>
+    <id>http://yoursite.com/2019/04/23/博客更新/</id>
+    <published>2019-04-23T15:35:18.658Z</published>
+    <updated>2019-04-23T16:03:36.180Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;博客更新&quot;&gt;&lt;a href=&quot;#博客更新&quot; class=&quot;headerlink&quot; title=&quot;博客更新&quot;&gt;&lt;/a&gt;博客更新&lt;/h2&gt;&lt;h4 id=&quot;1-博客生成&quot;&gt;&lt;a href=&quot;#1-博客生成&quot; class=&quot;headerlink&quot; title=&quot;1.
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="http://yoursite.com/2019/04/23/Git%E6%AD%A5%E9%AA%A4/"/>
+    <id>http://yoursite.com/2019/04/23/Git步骤/</id>
+    <published>2019-04-23T14:22:04.968Z</published>
+    <updated>2019-04-23T14:22:04.969Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;Git步骤&quot;&gt;&lt;a href=&quot;#Git步骤&quot; class=&quot;headerlink&quot; title=&quot;Git步骤&quot;&gt;&lt;/a&gt;Git步骤&lt;/h2&gt;&lt;h4 id=&quot;1-初始化目录的版本控制&quot;&gt;&lt;a href=&quot;#1-初始化目录的版本控制&quot;
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="http://yoursite.com/2018/11/25/Python%E4%B8%AD%E5%87%BD%E6%95%B0%E4%BC%A0%E5%8F%82%E9%97%AE%E9%A2%98/"/>
+    <id>http://yoursite.com/2018/11/25/Python中函数传参问题/</id>
+    <published>2018-11-25T09:30:13.269Z</published>
+    <updated>2019-04-24T04:38:10.744Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;title: 传参问题&lt;/p&gt;
+&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="http://yoursite.com/2018/11/23/hello/"/>
+    <id>http://yoursite.com/2018/11/23/hello/</id>
+    <published>2018-11-23T08:53:48.046Z</published>
+    <updated>2018-11-23T08:53:48.049Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;hello&quot;&gt;&lt;a href=&quot;#hello&quot; class=&quot;headerlink&quot; title=&quot;hello&quot;&gt;&lt;/a&gt;hello&lt;/h1&gt;&lt;p&gt;github&lt;/p&gt;
+&lt;p&gt;发论文&lt;/p&gt;
+&lt;h6 id=&quot;哈哈&quot;&gt;&lt;a href=&quot;#哈哈&quot;
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>HelloMABIAO</title>
+    <link href="http://yoursite.com/2018/11/22/hello-world/"/>
+    <id>http://yoursite.com/2018/11/22/hello-world/</id>
+    <published>2018-11-22T09:37:59.130Z</published>
+    <updated>2018-11-22T12:58:28.519Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;这是博客内容&lt;/p&gt;
+
+        
+      
+    
+    </summary>
+    
+      <category term="Begin" scheme="http://yoursite.com/categories/Begin/"/>
+    
+      <category term="Hexo" scheme="http://yoursite.com/categories/Begin/Hexo/"/>
+    
+    
+      <category term="Hexo" scheme="http://yoursite.com/tags/Hexo/"/>
+    
+  </entry>
+  
+</feed>
