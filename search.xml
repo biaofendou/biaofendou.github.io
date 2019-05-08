@@ -3,7 +3,7 @@
   <entry>
     <title><![CDATA[代码管理]]></title>
     <url>%2F2019%2F04%2F24%2F%E5%B0%86%E5%B7%B2%E6%9C%89%E9%A1%B9%E7%9B%AE%E8%BF%9B%E8%A1%8C%E4%BB%A3%E7%A0%81%E7%89%88%E6%9C%AC%E7%AE%A1%E7%90%86%2F</url>
-    <content type="text"><![CDATA[将已有项目进行代码版本管理1.git上新建一个项目2. 一般新建git项目都是空的不会与原本的本地项目有冲突，所以直接使用“git pull -allow-unrelated-histories”将git上的项目与本地项目强行融合，当出现冲突时需要人工选择保留哪个项目]]></content>
+    <content type="text"><![CDATA[将已有项目进行代码版本管理1.git上新建一个项目2. 一般新建git项目都是空的不会与原本的本地项目有冲突，所以直接使用“git pull –allow-unrelated-histories”将git上的项目与本地项目强行融合，当出现冲突时需要人工选择保留哪个项目]]></content>
       <categories>
         <category>git</category>
       </categories>
