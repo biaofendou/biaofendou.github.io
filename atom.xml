@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>聚沙成塔</title>
+  
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://biaofendou.github.io/"/>
+  <updated>2019-08-14T04:37:23.890Z</updated>
+  <id>http://biaofendou.github.io/</id>
+  
+  <author>
+    <name>马标</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>[object Object]</title>
+    <link href="http://biaofendou.github.io/2019/08/14/%E4%BD%A0%E5%A5%BD/"/>
+    <id>http://biaofendou.github.io/2019/08/14/你好/</id>
+    <published>2019-08-14T03:15:23.324Z</published>
+    <updated>2019-08-14T04:37:23.890Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><a id="more"></a> <h1 id="你好"><a href="#你好" class="headerlink" title="你好"></a>你好</h1><h2 id="测试"><a href="#测试" class="headerlink" title="测试"></a>测试</h2><h3 id="可以吗"><a href="#可以吗" class="headerlink" title="可以吗"></a>可以吗</h3><hr>]]></content>
+    
+    <summary type="html">
+    
+      &lt;center&gt;做一个测试&lt;/center&gt;
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>性能测试</title>
+    <link href="http://biaofendou.github.io/2019/05/31/CPU/"/>
+    <id>http://biaofendou.github.io/2019/05/31/CPU/</id>
+    <published>2019-05-31T14:03:57.829Z</published>
+    <updated>2019-08-14T04:32:17.922Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><a id="more"></a><h1 id="CPU"><a href="#CPU" class="headerlink" title="CPU"></a>CPU</h1><h3 id="1-获取CPU数据"><a href="#1-获取CPU数据" class="headerlink" title="1. 获取CPU数据"></a>1. 获取CPU数据</h3><p>adb shell dumpsys cpuinfo | grep packagename</p><h1 id="流量"><a href="#流量" class="headerlink" title="流量"></a>流量</h1><h3 id="1-获取进程id流量"><a href="#1-获取进程id流量" class="headerlink" title="1.获取进程id流量"></a>1.获取进程id流量</h3><p>adb shell cat/proc/pid/net/dev</p><h3 id="2-进程id获取"><a href="#2-进程id获取" class="headerlink" title="2.进程id获取"></a>2.进程id获取</h3><p>adb shell ps | grep com.maiyang</p><h1 id="电量"><a href="#电量" class="headerlink" title="电量"></a>电量</h1><h3 id="1-获取电量"><a href="#1-获取电量" class="headerlink" title="1.获取电量"></a>1.获取电量</h3><p>adb shell dumpsys battery</p><h3 id="2-手机切换到非充电状态"><a href="#2-手机切换到非充电状态" class="headerlink" title="2.手机切换到非充电状态"></a>2.手机切换到非充电状态</h3><p>adb shell dumpsys battery set status 1</p><blockquote><p>status 2 是充电状态 </p></blockquote><h1 id="内存"><a href="#内存" class="headerlink" title="内存"></a>内存</h1><h3 id="1-获取内存"><a href="#1-获取内存" class="headerlink" title="1.获取内存"></a>1.获取内存</h3><p>adb shell top</p><blockquote><p>VSS - Virtual Set Size 虚拟耗用内存</p><p>RSS - Resident Set Size 实际使用物理内存</p></blockquote>]]></content>
+    
+    <summary type="html">
+    
+      &lt;center&gt; *APP测试中的一些操作*&lt;/center&gt;
+    
+    </summary>
+    
+      <category term="测试" scheme="http://biaofendou.github.io/categories/%E6%B5%8B%E8%AF%95/"/>
+    
+    
+      <category term="测试" scheme="http://biaofendou.github.io/tags/%E6%B5%8B%E8%AF%95/"/>
+    
+      <category term="CPU" scheme="http://biaofendou.github.io/tags/CPU/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>APP操作的adb命令</title>
+    <link href="http://biaofendou.github.io/2019/05/31/%E5%90%AF%E5%8A%A8/"/>
+    <id>http://biaofendou.github.io/2019/05/31/启动/</id>
+    <published>2019-05-31T05:25:17.658Z</published>
+    <updated>2019-08-13T04:41:29.700Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><code><a id="more"></a></code></p><h1 id="APP操作的adb命令"><a href="#APP操作的adb命令" class="headerlink" title="APP操作的adb命令"></a>APP操作的adb命令</h1><h3 id="1-启动App命令"><a href="#1-启动App命令" class="headerlink" title="1.启动App命令"></a>1.启动App命令</h3><ul><li>adb shell am start -W -n package/activity</li></ul><blockquote><p> 获取包名和activity名</p><p>adb logcat | grep START</p></blockquote><ul><li>返回参数ThisTime就是APP启动时间</li></ul><h3 id="2-APP关闭命令"><a href="#2-APP关闭命令" class="headerlink" title="2.APP关闭命令"></a>2.APP关闭命令</h3><ul><li>adb shell am force-stop package/activity</li></ul><h3 id="3-APP后台关闭方式"><a href="#3-APP后台关闭方式" class="headerlink" title="3.APP后台关闭方式"></a>3.APP后台关闭方式</h3><ul><li>adb shell input keyevent 3</li></ul>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;code&gt;
+    
+    </summary>
+    
+      <category term="测试" scheme="http://biaofendou.github.io/categories/%E6%B5%8B%E8%AF%95/"/>
+    
+    
+      <category term="测试" scheme="http://biaofendou.github.io/tags/%E6%B5%8B%E8%AF%95/"/>
+    
+      <category term="adb" scheme="http://biaofendou.github.io/tags/adb/"/>
+    
+      <category term="Appium" scheme="http://biaofendou.github.io/tags/Appium/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>postman</title>
+    <link href="http://biaofendou.github.io/2019/05/22/postman%E7%9A%84%E4%BD%BF%E7%94%A8/"/>
+    <id>http://biaofendou.github.io/2019/05/22/postman的使用/</id>
+    <published>2019-05-22T12:57:39.646Z</published>
+    <updated>2019-08-13T04:39:40.574Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><code><a id="more"></a></code></p><p>﻿# postman的使用</p><p>标签（空格分隔）： API接口 测试 </p><hr><ol><li>环境配置</li></ol><p>列表项</p><p>列表项</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;code&gt;
+    
+    </summary>
+    
+      <category term="postman" scheme="http://biaofendou.github.io/categories/postman/"/>
+    
+    
+      <category term="测试" scheme="http://biaofendou.github.io/tags/%E6%B5%8B%E8%AF%95/"/>
+    
+      <category term="postman" scheme="http://biaofendou.github.io/tags/postman/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>代码管理</title>
+    <link href="http://biaofendou.github.io/2019/04/24/%E5%B0%86%E5%B7%B2%E6%9C%89%E9%A1%B9%E7%9B%AE%E8%BF%9B%E8%A1%8C%E4%BB%A3%E7%A0%81%E7%89%88%E6%9C%AC%E7%AE%A1%E7%90%86/"/>
+    <id>http://biaofendou.github.io/2019/04/24/将已有项目进行代码版本管理/</id>
+    <published>2019-04-23T16:02:23.904Z</published>
+    <updated>2019-08-13T04:40:21.598Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><code><a id="more"></a></code></p><h3 id="将已有项目进行代码版本管理"><a href="#将已有项目进行代码版本管理" class="headerlink" title="将已有项目进行代码版本管理"></a>将已有项目进行代码版本管理</h3><h4 id="1-git上新建一个项目"><a href="#1-git上新建一个项目" class="headerlink" title="1.git上新建一个项目"></a>1.git上新建一个项目</h4><h4 id="2-一般新建git项目都是空的不会与原本的本地项目有冲突，所以直接使用“git-pull-–allow-unrelated-histories”将git上的项目与本地项目强行融合，当出现冲突时需要人工选择保留哪个项目"><a href="#2-一般新建git项目都是空的不会与原本的本地项目有冲突，所以直接使用“git-pull-–allow-unrelated-histories”将git上的项目与本地项目强行融合，当出现冲突时需要人工选择保留哪个项目" class="headerlink" title="2. 一般新建git项目都是空的不会与原本的本地项目有冲突，所以直接使用“git pull –allow-unrelated-histories”将git上的项目与本地项目强行融合，当出现冲突时需要人工选择保留哪个项目"></a>2. 一般新建git项目都是空的不会与原本的本地项目有冲突，所以直接使用“git pull –allow-unrelated-histories”将git上的项目与本地项目强行融合，当出现冲突时需要人工选择保留哪个项目</h4>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;code&gt;
+    
+    </summary>
+    
+      <category term="git" scheme="http://biaofendou.github.io/categories/git/"/>
+    
+    
+      <category term="git" scheme="http://biaofendou.github.io/tags/git/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>git 忽略规则.gitignore</title>
+    <link href="http://biaofendou.github.io/2019/04/23/git%20%E5%BF%BD%E7%95%A5%E8%A7%84%E5%88%99.gitignore/"/>
+    <id>http://biaofendou.github.io/2019/04/23/git 忽略规则.gitignore/</id>
+    <published>2019-04-23T15:57:11.634Z</published>
+    <updated>2019-08-13T11:45:37.861Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><a id="more"></a><h2 id="在进行代码管理时，应该将（-文件）这样的环境配置文件应该忽略掉，防止每次环境变化版本出现问题，大型数据集也应该忽略"><a href="#在进行代码管理时，应该将（-文件）这样的环境配置文件应该忽略掉，防止每次环境变化版本出现问题，大型数据集也应该忽略" class="headerlink" title="在进行代码管理时，应该将（.文件）这样的环境配置文件应该忽略掉，防止每次环境变化版本出现问题，大型数据集也应该忽略"></a>在进行代码管理时，应该将（.文件）这样的环境配置文件应该忽略掉，防止每次环境变化版本出现问题，大型数据集也应该忽略</h2><h3 id="touch-gitignore-创建文件"><a href="#touch-gitignore-创建文件" class="headerlink" title="touch .gitignore 创建文件"></a>touch .gitignore 创建文件</h3><h3 id="vim-gitignore-打开文件"><a href="#vim-gitignore-打开文件" class="headerlink" title="vim .gitignore  打开文件"></a>vim .gitignore  打开文件</h3><h3 id="在文件中加入要忽视文件的路径如-idea-data-等"><a href="#在文件中加入要忽视文件的路径如-idea-data-等" class="headerlink" title="在文件中加入要忽视文件的路径如 .idea/,data/等"></a>在文件中加入要忽视文件的路径如 .idea/,data/等</h3>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;h2 id=&quot;在进行代码管理时，应该将（-文
+      
+    
+    </summary>
+    
+      <category term="git" scheme="http://biaofendou.github.io/categories/git/"/>
+    
+    
+      <category term="git" scheme="http://biaofendou.github.io/tags/git/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>博客更新</title>
+    <link href="http://biaofendou.github.io/2019/04/23/%E5%8D%9A%E5%AE%A2%E6%9B%B4%E6%96%B0/"/>
+    <id>http://biaofendou.github.io/2019/04/23/博客更新/</id>
+    <published>2019-04-23T15:35:18.658Z</published>
+    <updated>2019-08-14T03:07:29.488Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><code><a id="more"></a></code></p><h4 id="1-博客生成"><a href="#1-博客生成" class="headerlink" title="1. 博客生成"></a>1. 博客生成</h4><h4 id="hexo-generate"><a href="#hexo-generate" class="headerlink" title="hexo generate"></a>hexo generate</h4><h4 id="2-本地博客展示"><a href="#2-本地博客展示" class="headerlink" title="2.本地博客展示"></a>2.本地博客展示</h4><h4 id="hexo-server"><a href="#hexo-server" class="headerlink" title="hexo server"></a>hexo server</h4><h4 id="3-博客上传"><a href="#3-博客上传" class="headerlink" title="3. 博客上传"></a>3. 博客上传</h4><h4 id="hexo-deploy"><a href="#hexo-deploy" class="headerlink" title="hexo deploy"></a>hexo deploy</h4><h4 id="4-博客生成内容清除"><a href="#4-博客生成内容清除" class="headerlink" title="4. 博客生成内容清除"></a>4. 博客生成内容清除</h4><h4 id="hexo-clean"><a href="#hexo-clean" class="headerlink" title="hexo clean"></a>hexo clean</h4>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;code&gt;
+    
+    </summary>
+    
+      <category term="博客" scheme="http://biaofendou.github.io/categories/%E5%8D%9A%E5%AE%A2/"/>
+    
+    
+      <category term="博客" scheme="http://biaofendou.github.io/tags/%E5%8D%9A%E5%AE%A2/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Git步骤</title>
+    <link href="http://biaofendou.github.io/2019/04/23/Git%E6%AD%A5%E9%AA%A4/"/>
+    <id>http://biaofendou.github.io/2019/04/23/Git步骤/</id>
+    <published>2019-04-23T14:22:04.968Z</published>
+    <updated>2019-08-13T07:56:11.267Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><code><a id="more"></a></code></p><h2 id="Git步骤"><a href="#Git步骤" class="headerlink" title="Git步骤"></a>Git步骤</h2><h4 id="1-初始化目录的版本控制怕连接"><a href="#1-初始化目录的版本控制怕连接" class="headerlink" title="1.初始化目录的版本控制怕连接"></a>1.初始化目录的版本控制怕<a href="https://www.runoob.com" target="_blank" rel="noopener">连接</a></h4><h3 id="git-init"><a href="#git-init" class="headerlink" title="git init"></a>git init</h3><h4 id="2-查看仓库当前状态"><a href="#2-查看仓库当前状态" class="headerlink" title="2. 查看仓库当前状态"></a>2. 查看仓库当前状态</h4><h3 id="git-status"><a href="#git-status" class="headerlink" title="git status"></a>git status</h3><h4 id="3-将仓库文件添加到缓存区"><a href="#3-将仓库文件添加到缓存区" class="headerlink" title="3. 将仓库文件添加到缓存区"></a>3. 将仓库文件添加到缓存区</h4><h3 id="git-add-git-add-–all"><a href="#git-add-git-add-–all" class="headerlink" title="git add . / git add –all"></a>git add . / git add –all</h3><h4 id="4-将暂存文件提交至本地仓库"><a href="#4-将暂存文件提交至本地仓库" class="headerlink" title="4.将暂存文件提交至本地仓库"></a>4.将暂存文件提交至本地仓库</h4><h3 id="git-commit-m-‘提交描述’"><a href="#git-commit-m-‘提交描述’" class="headerlink" title="git commit -m ‘提交描述’"></a>git commit -m ‘提交描述’</h3><h4 id="5-建立远程仓库连接"><a href="#5-建立远程仓库连接" class="headerlink" title="5.建立远程仓库连接"></a>5.建立远程仓库连接</h4><h4 id="git-remote-add-origin-git-github-com-biaofendou-biaofendou-github-io-git"><a href="#git-remote-add-origin-git-github-com-biaofendou-biaofendou-github-io-git" class="headerlink" title="git remote add origin git@github.com:biaofendou/biaofendou.github.io.git"></a>git remote add origin <a href="mailto:git@github.com" target="_blank" rel="noopener">git@github.com</a>:biaofendou/biaofendou.github.io.git</h4><h4 id="6-推送到远程仓库"><a href="#6-推送到远程仓库" class="headerlink" title="6.推送到远程仓库"></a>6.推送到远程仓库</h4><h3 id="git-push-u-origin-master"><a href="#git-push-u-origin-master" class="headerlink" title="git push -u origin master"></a>git push -u origin master</h3>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;code&gt;
+    
+    </summary>
+    
+      <category term="git" scheme="http://biaofendou.github.io/categories/git/"/>
+    
+    
+      <category term="git" scheme="http://biaofendou.github.io/tags/git/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>传参问题</title>
+    <link href="http://biaofendou.github.io/2018/11/25/Python%E4%B8%AD%E5%87%BD%E6%95%B0%E4%BC%A0%E5%8F%82%E9%97%AE%E9%A2%98/"/>
+    <id>http://biaofendou.github.io/2018/11/25/Python中函数传参问题/</id>
+    <published>2018-11-25T09:30:13.269Z</published>
+    <updated>2019-04-24T11:53:36.249Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><code><br><a id="more"></a><br></code></p><h1 id="Python中函数传参问题"><a href="#Python中函数传参问题" class="headerlink" title="Python中函数传参问题"></a>Python中函数传参问题</h1><h2 id="1-Python中函数的传入参数分为两类："><a href="#1-Python中函数的传入参数分为两类：" class="headerlink" title="1.Python中函数的传入参数分为两类："></a>1.Python中函数的传入参数分为两类：</h2><p> 不可变对象：Number ,String , Tuple，bool<br>可变对象： List , Set , Dictionary是可以改变内部的元素</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;code&gt;&lt;br&gt;
+    
+    </summary>
+    
+      <category term="Python" scheme="http://biaofendou.github.io/categories/Python/"/>
+    
+    
+      <category term="Python学习" scheme="http://biaofendou.github.io/tags/Python%E5%AD%A6%E4%B9%A0/"/>
+    
+  </entry>
+  
+</feed>
