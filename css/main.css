@@ -1880,7 +1880,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ff32e9;
+  background: #a6871d;
 }
 .feed-link,
 .chat {
@@ -2686,7 +2686,7 @@ img.img-topic {
 }
 .posts-expand .post-meta .post-description {
   font-style: italic;
-  font-size: 14px;
+  font-size: 18px;
   margin-top: 30px;
   margin-bottom: 0px;
   color: #666;
