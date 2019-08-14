@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[[object Object]]]></title>
+    <url>%2F2019%2F08%2F14%2F%E4%BD%A0%E5%A5%BD%2F</url>
+    <content type="text"><![CDATA[你好测试可以吗]]></content>
+  </entry>
+  <entry>
     <title><![CDATA[性能测试]]></title>
     <url>%2F2019%2F05%2F31%2FCPU%2F</url>
     <content type="text"><![CDATA[CPU1. 获取CPU数据adb shell dumpsys cpuinfo | grep packagename 流量1.获取进程id流量adb shell cat/proc/pid/net/dev 2.进程id获取adb shell ps | grep com.maiyang 电量1.获取电量adb shell dumpsys battery 2.手机切换到非充电状态adb shell dumpsys battery set status 1 status 2 是充电状态 内存1.获取内存adb shell top VSS - Virtual Set Size 虚拟耗用内存 RSS - Resident Set Size 实际使用物理内存]]></content>
