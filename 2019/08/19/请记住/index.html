@@ -21,7 +21,16 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
 <meta name="theme-color" content="#222">
-
+<script>
+    (function(){
+        if(''){
+            if (prompt('请输入密码') !== ''){
+                alert('密码错误');
+                history.back();
+            }
+        }
+    })();
+</script>
 
   
   
@@ -555,20 +564,18 @@
       
 
       
-        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
-<div id="hbe-security">
-  <div class="hbe-input-container">
-  <input type="password" class="hbe-form-control" id="pass" placeholder="输入密码，查看文章。">
-    <label for="pass">输入密码，查看文章。</label>
-    <div class="bottom-line"></div>
-  </div>
-</div>
-<div id="decryptionError" style="display: none;">Incorrect Password!</div>
-<div id="noContentError" style="display: none;">No content to display!</div>
-<div id="encrypt-blog" style="display:none">
-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
-</div>
-<script src="/lib/crypto-js.js"></script><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><a id="more"></a>
+<h1 id="请记住"><a href="#请记住" class="headerlink" title="请记住"></a>请记住</h1><p>亲爱的：</p>
+<p>&emsp;&emsp;这个世界是美好的，有美好的爱情，温暖的亲情，纯洁的友情；但是这个世界是也丑陋的，有红黄蓝事件的恐怖，有校园暴力的压迫，有欺凌下属的上级，也有不怀好心的坏人。</p>
+<p>&emsp;&emsp;这个世界每分每秒都有不幸发生，就比如你今天看的《悲伤逆流成河》这就是一个活生生的例子，我们对于已经发生的事情无能为力，但是这些发生的惨案应该给我们敲响警钟，让我们明白这个社会只是怀着美好的愿景和无邪的真心并不能让我们过得更好。</p>
+<p>&emsp;&emsp;所以我们要做的不是一个猎人眼中的小白兔，我们要成为一头狼。狼，对待身边的亲人伙伴互相扶持，对待敌人同仇敌忾。请记住这个世界上你永远不会一个人，你有爱你的家人，还有我。</p>
+<p>&emsp;&emsp; 或许刚开始坏人也是好人，但是当他发现做坏人可以尝到甜头的时候，他就一发不可收拾，变成了一个彻彻底底的坏人，所以当下次有人对你不怀好意的时候应该让他们尝点苦头。</p>
+<p>&emsp;&emsp;如何判断别人好坏？请记住没有人会无缘无故对你好，也没人会无缘无故对你坏，当别人对你和别人不一样的时候就要想一下他的动机。当他的好有所企图的时候应该明确让他知道这是不可能的，不要觉得尴尬，因为他有这种心思都不怕尴尬。当别人对你坏的时候要先反思自己是不是有问题，再看看他是不是哪里不对，只要做到问心无愧，那些对你坏的人只是生命中不重要的过客而已。</p>
+<p>&emsp;&emsp;最重要的是—你不是一个人！</p>
+<p>&emsp;&emsp; 当你有一些想法的时候，要主动和别人分享，没有必要放在心里，我愿意做一个倾听者；当你遇到麻烦的时候一定不要憋在心里，要学会诉说，我永远不会让你再有上学时候那种独自面对变态的恐惧，我会保护你，我爱你并不只是一句话，还有一份责任！还有学会判断别人，判断事情，当你对一些事情感觉不对的时候，你可以换位思考问题，请记住你已经是一个走上社会的成年女性，还那么漂亮，身边的人形形色色我们看待人的角度应该变化，要懂得如何把握和同事相处的距离，还有当你自己判断不了的时候请记住还有我，即使再小的事情我也愿意为你出谋划策。</p>
+<p>&emsp;&emsp; 试着把自己的想法给我说，即使再小的念头我也愿意听，因为我是那个陪你过完下面一生的人！</p>
+<p align="right">爱你的大老公</p> 
+
       
     </div>
 
@@ -716,8 +723,17 @@ U2FsdGVkX1+jXIlrQmJ1t/wK1ZN0OZtSeW7HfoQ3iHz1VvZTyCzm5OTrhztdHku19oU7dufP9suetWVQ
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <div class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <div class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
             
@@ -897,6 +913,23 @@ show_date_time();
         </div>
       </div>
 
+      
+      <!--noindex-->
+        <div class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+            
+            
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#请记住"><span class="nav-number">1.</span> <span class="nav-text">请记住</span></a></li></ol></div>
+            
+
+          </div>
+        </div>
+      <!--/noindex-->
       
 
       
