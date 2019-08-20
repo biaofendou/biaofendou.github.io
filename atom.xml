@@ -65,7 +65,7 @@
     <link href="http://biaofendou.github.io/2019/08/19/bootstrap/"/>
     <id>http://biaofendou.github.io/2019/08/19/bootstrap/</id>
     <published>2019-08-19T10:23:27.317Z</published>
-    <updated>2019-08-19T10:23:29.127Z</updated>
+    <updated>2019-08-20T02:43:20.151Z</updated>
     
     <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><a id="more"></a><h1 id="前端开发bootstrap"><a href="#前端开发bootstrap" class="headerlink" title="前端开发bootstrap"></a>前端开发bootstrap</h1><h2 id="bootstrap简介"><a href="#bootstrap简介" class="headerlink" title="bootstrap简介"></a>bootstrap简介</h2><div style="margin:0 auto;"><br>    <div style="position:absolute;"><br>        <img src="https://www.runoob.com/wp-content/uploads/2013/10/bs.png" width="100%" height="100%"><br>    </div><br><div style="margin-left:200px;"><br>     <h3>&nbsp;&nbsp;Bootstrap，来自 Twitter，是目前最受欢迎的前端框架。Bootstrap 是基于 HTML、CSS、JAVASCRIPT 的，它简洁灵活，使得 Web 开发更加快捷。<br> </h3><br>    </div><br></div><h3 id="bootstrap优点"><a href="#bootstrap优点" class="headerlink" title="bootstrap优点"></a>bootstrap优点</h3><ul><li><p><strong>移动设备优先</strong>：自 Bootstrap 3 起，框架包含了贯穿于整个库的移动设备优先的样式。</p></li><li><p><strong>浏览器支持</strong>：所有的主流浏览器都支持 Bootstrap。</p></li><li><p><strong>容易上手</strong>：只要您具备 HTML 和 CSS 的基础知识，您就可以开始学习 Bootstrap。</p></li><li><p><strong>响应式设计</strong>：Bootstrap 的响应式 CSS 能够自适应于台式机、平板电脑和手机。更多有关响应式设计的内容详见 <a href="https://www.runoob.com/bootstrap/bootstrap-v2-responsive-design.html" target="_blank" rel="noopener">Bootstrap 响应式设计</a>。</p><p><img src="https://www.runoob.com/wp-content/uploads/2014/06/responsive.jpg" alt=""></p></li></ul><h3 id="Bootstrap-包的内容"><a href="#Bootstrap-包的内容" class="headerlink" title="Bootstrap 包的内容"></a>Bootstrap 包的内容</h3><ul><li><p><strong>基本结构</strong>：Bootstrap 提供了一个带有网格系统、链接样式、背景的基本结构。</p></li><li><p><strong>CSS</strong>：Bootstrap 自带以下特性：全局的 CSS 设置、定义基本的 HTML 元素样式、可扩展的 class，以及一个先进的网格系统。</p></li><li><p><strong>组件</strong>：Bootstrap 包含了十几个可重用的组件，用于创建图像、下拉菜单、导航、警告框、弹出框等等。</p></li><li><p><strong>JavaScript 插件</strong>:Bootstrap 包含了十几个自定义的 jQuery 插件。您可以直接包含所有的插件，也可以逐个包含这些插件。</p></li><li><p><strong>定制</strong>：您可以定制 Bootstrap 的组件、LESS 变量和 jQuery 插件来得到您自己的版本。</p></li></ul><h3 id="bootstrap安装"><a href="#bootstrap安装" class="headerlink" title="bootstrap安装"></a>bootstrap安装</h3><p><a href="https://getbootstrap.com/" target="_blank" rel="noopener">官网地址</a></p><p><a href="https://getbootstrap.com/docs/4.3/getting-started/download/" target="_blank" rel="noopener">下载地址</a></p><ul><li><em>Download Bootstrap</em>：下载 Bootstrap。点击该按钮，您可以下载 Bootstrap CSS、JavaScript 和字体的预编译的压缩版本。不包含文档和最初的源代码文件。</li><li><em>Download Source</em>：下载源代码。点击该按钮，您可以直接从 from 上得到最新的 Bootstrap LESS 和 JavaScript 源代码。</li></ul><h4 id="文件结构"><a href="#文件结构" class="headerlink" title="文件结构"></a>文件结构</h4><h5 id="预编译的-Bootstrap"><a href="#预编译的-Bootstrap" class="headerlink" title="预编译的 Bootstrap"></a>预编译的 Bootstrap</h5><p>当您下载了 Bootstrap 的已编译的版本，解压缩 ZIP 文件，您将看到下面的文件/目录结构：</p><p><img src="https://www.runoob.com/wp-content/uploads/2014/06/compiledfilestructure.jpg" alt="结构地址"></p><p>如上图所示，可以看到已编译的 CSS 和 JS（bootstrap.<em>），以及已编译压缩的 CSS 和 JS（bootstrap.min.</em>）。同时也包含了 Glyphicons 的字体，这是一个可选的 Bootstrap 主题。</p><h5 id="Bootstrap-源代码"><a href="#Bootstrap-源代码" class="headerlink" title="Bootstrap 源代码"></a>Bootstrap 源代码</h5><p>如果您下载了 Bootstrap 源代码，那么文件结构将如下所示：</p><p><img src="https://www.runoob.com/wp-content/uploads/2014/06/sourcecodefilestructure.jpg" alt="源代码"></p><ul><li><em>less/</em>、<em>js/</em> 和 <em>fonts/</em> 下的文件分别是 Bootstrap CSS、JS 和图标字体的源代码。</li><li><em>dist/</em> 文件夹包含了上面预编译下载部分中所列的文件和文件夹。</li><li><em>docs-assets/</em>、<em>examples/</em> 和所有的 *<em>.html</em> 文件是 Bootstrap 文档。</li></ul><h2 id="bootsrap-CSS"><a href="#bootsrap-CSS" class="headerlink" title="bootsrap CSS"></a>bootsrap CSS</h2>]]></content>
     
@@ -75,12 +75,12 @@
     
     </summary>
     
-      <category term="日记" scheme="http://biaofendou.github.io/categories/%E6%97%A5%E8%AE%B0/"/>
+      <category term="前端" scheme="http://biaofendou.github.io/categories/%E5%89%8D%E7%AB%AF/"/>
     
     
       <category term="开发" scheme="http://biaofendou.github.io/tags/%E5%BC%80%E5%8F%91/"/>
     
-      <category term="日记" scheme="http://biaofendou.github.io/tags/%E6%97%A5%E8%AE%B0/"/>
+      <category term="bootstrap" scheme="http://biaofendou.github.io/tags/bootstrap/"/>
     
   </entry>
   
