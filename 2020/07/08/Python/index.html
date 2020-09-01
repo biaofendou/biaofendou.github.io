@@ -140,17 +140,18 @@
 
 
 
-  <meta name="description" content="1.Python中深拷贝和浅拷贝和赋值的区别 copy.copy 浅拷贝 只拷贝父对象，不会拷贝对象内部的子对象。 copy.deepcopy 深拷贝 拷贝对象及其子对象一个很好的例子：import copya = [1, 2, 3, 4, [‘a’, ‘b’]] #原始对象b = a #赋值，传对象的引用c = copy.copy(a) #对象拷贝，浅拷贝d = copy.deepcopy(a)">
+  <meta name="description" content="python相关知识点">
+<meta name="keywords" content="python">
 <meta property="og:type" content="article">
-<meta property="og:title" content="聚沙成塔">
+<meta property="og:title" content="Python相关知识点">
 <meta property="og:url" content="http://biaofendou.github.io/2020/07/08/Python/index.html">
 <meta property="og:site_name" content="聚沙成塔">
-<meta property="og:description" content="1.Python中深拷贝和浅拷贝和赋值的区别 copy.copy 浅拷贝 只拷贝父对象，不会拷贝对象内部的子对象。 copy.deepcopy 深拷贝 拷贝对象及其子对象一个很好的例子：import copya = [1, 2, 3, 4, [‘a’, ‘b’]] #原始对象b = a #赋值，传对象的引用c = copy.copy(a) #对象拷贝，浅拷贝d = copy.deepcopy(a)">
+<meta property="og:description" content="python相关知识点">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2020-07-08T08:28:55.303Z">
+<meta property="og:updated_time" content="2020-09-01T13:48:32.554Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="聚沙成塔">
-<meta name="twitter:description" content="1.Python中深拷贝和浅拷贝和赋值的区别 copy.copy 浅拷贝 只拷贝父对象，不会拷贝对象内部的子对象。 copy.deepcopy 深拷贝 拷贝对象及其子对象一个很好的例子：import copya = [1, 2, 3, 4, [‘a’, ‘b’]] #原始对象b = a #赋值，传对象的引用c = copy.copy(a) #对象拷贝，浅拷贝d = copy.deepcopy(a)">
+<meta name="twitter:title" content="Python相关知识点">
+<meta name="twitter:description" content="python相关知识点">
 
 
 
@@ -170,7 +171,7 @@
   };
 </script>
 
-  <title> | 聚沙成塔</title>
+  <title>Python相关知识点 | 聚沙成塔</title>
   
 
 
@@ -432,7 +433,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">
+          <h1 class="post-title" itemprop="name headline">Python相关知识点
 
               
             
@@ -458,16 +459,46 @@
                 
               
 
-              <time title="创建时间：2020-07-08 16:27:23 / 修改时间：16:28:55" itemprop="dateCreated datePublished" datetime="2020-07-08T16:27:23+08:00">2020-07-08</time>
+              <time title="创建时间：2020-07-08 16:27:23" itemprop="dateCreated datePublished" datetime="2020-07-08T16:27:23+08:00">2020-07-08</time>
             
 
             
               
 
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2020-09-01 21:48:32" itemprop="dateModified" datetime="2020-09-01T21:48:32+08:00">2020-09-01</time>
               
             
           </span>
 
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing"><a href="/categories/面试/" itemprop="url" rel="index"><span itemprop="name">面试</span></a></span>
+
+                
+                
+              
+            </span>
           
 
           
@@ -501,6 +532,8 @@
           
 
           
+            <div class="post-description"><center><h3>python相关知识点</h3></center></div>
+          
 
         </div>
       </header>
@@ -515,9 +548,10 @@
       
 
       
-        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h3 id="1-Python中深拷贝和浅拷贝和赋值的区别"><a href="#1-Python中深拷贝和浅拷贝和赋值的区别" class="headerlink" title="1.Python中深拷贝和浅拷贝和赋值的区别"></a>1.Python中深拷贝和浅拷贝和赋值的区别</h3><ol>
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><a id="more"></a>
+<h3 id="1-Python中深拷贝和浅拷贝和赋值的区别"><a href="#1-Python中深拷贝和浅拷贝和赋值的区别" class="headerlink" title="1.Python中深拷贝和浅拷贝和赋值的区别"></a>1.Python中深拷贝和浅拷贝和赋值的区别</h3><ol>
 <li>copy.copy 浅拷贝 只拷贝父对象，不会拷贝对象内部的子对象。</li>
-<li>copy.deepcopy 深拷贝 拷贝对象及其子对象<br>一个很好的例子：<br>import copy<br>a = [1, 2, 3, 4, [‘a’, ‘b’]] #原始对象<br>b = a #赋值，传对象的引用<br>c = copy.copy(a) #对象拷贝，浅拷贝<br>d = copy.deepcopy(a) #对象拷贝，深拷贝<br>a.append(5) #修改对象a<br>a[4].append(‘c’) #修改对象a中的[‘a’, ‘b’]数组对象<br>print ‘a = ‘, a<br>print ‘b = ‘, b<br>print ‘c = ‘, c<br>print ‘d = ‘, d<br>输出结果：<br>a = [1, 2, 3, 4, [‘a’, ‘b’, ‘c’], 5]<br>b = [1, 2, 3, 4, [‘a’, ‘b’, ‘c’], 5]<br>c = [1, 2, 3, 4, [‘a’, ‘b’, ‘c’]]<br>d = [1, 2, 3, 4, [‘a’, ‘b’]]</li>
+<li>copy.deepcopy 深拷贝 拷贝对象及其子对象<br> 一个很好的例子：<br> import copy<br> a = [1, 2, 3, 4, [‘a’, ‘b’]] #原始对象<br> b = a #赋值，传对象的引用<br> c = copy.copy(a) #对象拷贝，浅拷贝<br> d = copy.deepcopy(a) #对象拷贝，深拷贝<br> a.append(5) #修改对象a<br> a[4].append(‘c’) #修改对象a中的[‘a’, ‘b’]数组对象<br> print ‘a = ‘, a<br> print ‘b = ‘, b<br> print ‘c = ‘, c<br> print ‘d = ‘, d<br> 输出结果：<br> a = [1, 2, 3, 4, [‘a’, ‘b’, ‘c’], 5]<br> b = [1, 2, 3, 4, [‘a’, ‘b’, ‘c’], 5]<br> c = [1, 2, 3, 4, [‘a’, ‘b’, ‘c’]]<br> d = [1, 2, 3, 4, [‘a’, ‘b’]]</li>
 </ol>
 <h3 id="2-Python垃圾回收"><a href="#2-Python垃圾回收" class="headerlink" title="2. Python垃圾回收"></a>2. Python垃圾回收</h3><p><strong>Python中的垃圾回收是以引用计数为主，标记-清除和分代收集为辅。引用计数最大缺陷就是循环引用的问题，所以Python采用了辅助方法。</strong></p>
 
@@ -553,7 +587,7 @@
     <strong>本文作者： </strong>马标</li>
   <li class="post-copyright-link">
   <strong>本文链接：</strong>
-  <a href="https://biaofendou.github.io/2020/07/08/Python/" title="">https://biaofendou.github.io/2020/07/08/Python/</a>
+  <a href="https://biaofendou.github.io/2020/07/08/Python/" title="Python相关知识点">https://biaofendou.github.io/2020/07/08/Python/</a>
 </li>
   <li class="post-copyright-license">
     <strong>版权声明： </strong>本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="noopener" target="_blank"><i class="fa fa-fw fa-creative-commons"></i>BY-NC-SA</a> 许可协议。转载请注明出处！</li>
@@ -571,6 +605,12 @@
   
 </div>
     <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/python/" <i="" class="fa fa-tag"> python</a>
+          
+        </div>
       
 
       
@@ -612,8 +652,8 @@
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/2020/07/16/简历投递/" rel="prev" title="">
-                 <i class="fa fa-chevron-right"></i>
+              <a href="/2020/07/16/简历投递/" rel="prev" title="简历投递情况">
+                简历投递情况 <i class="fa fa-chevron-right"></i>
               </a>
             
           </div>
@@ -728,7 +768,11 @@
                     
                       
                     
-                    <span class="site-state-item-count">11</span>
+                      
+                    
+                      
+                    
+                    <span class="site-state-item-count">13</span>
                     <span class="site-state-item-name">分类</span>
                   </a>
                 </div>
@@ -783,7 +827,11 @@
                     
                       
                     
-                    <span class="site-state-item-count">19</span>
+                      
+                    
+                      
+                    
+                    <span class="site-state-item-count">21</span>
                     <span class="site-state-item-name">标签</span>
                   </a>
                 </div>
